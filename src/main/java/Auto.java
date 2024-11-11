@@ -5,8 +5,11 @@ public class Auto {
     String marca;
     Motor motor;
     int registro;
-    static String cantidadCreados;
+    static int cantidadCreados;
 
+    public Auto(){
+        cantidadCreados++;
+    }
     public int cantidadAsientos(){
         return asientos.length;
     }
