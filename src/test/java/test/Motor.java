@@ -3,7 +3,7 @@ import java.util.Arrays;
 import java.util.List;
 
 public class Motor {
-    int numeroDeCilindros;
+    int numeroCilindros;
     String tipo;
     int registro;
     static final List<String> TIPOS = Arrays.asList("electrico", "gasolina");
