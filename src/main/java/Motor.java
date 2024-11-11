@@ -12,7 +12,7 @@ public class Motor {
     }
     
     public void asignarTipo(String newTipo) {
-        if(TIPOS.contains(tipo)){
+        if(TIPOS.contains(newTipo)){
             tipo = newTipo; 
         }
     }
