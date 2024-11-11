@@ -11,9 +11,9 @@ public class Motor {
         registro = nuevoRegistro;
     }
     
-    public void asignarTipo(String tipo) {
+    public void asignarTipo(String newTipo) {
         if(TIPOS.contains(tipo)){
-            this.tipo = tipo; 
+            tipo = newTipo; 
         }
     }
 }
